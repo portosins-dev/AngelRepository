@@ -1,0 +1,72 @@
+body {
+  background-color: lightcyan;
+}
+h1 {
+  background-color: lightblue;
+  font-size: 20px;
+}
+h2 {
+  color: blueviolet;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: lightcoral;
+}
+
+.miestilo {
+  /* Selector de clase */
+  color: green;
+  font-size: 100%;
+}
+
+#tabla {
+  /* Selector de id*/
+  background-color: white;
+  color: black;
+  width: 50%;
+  height: 188;
+  border: 1;
+}
+
+h1,
+h2,
+address {
+  /* Selector de grupo*/
+  background-color: yellow;
+  color: black;
+  width: 50%;
+  height: 188;
+  border: 1;
+}
+
+* {
+  /* Selector universal */
+  text-decoration: underline;
+  text-decoration-thickness: 0px;
+  text-decoration-color: black;
+}
+
+li a {
+  color: red;
+}
+
+li a strong {
+  color: green;
+}
+
+.destacado {
+  color: blue;
+  font-size: 40px;
+}
+/* .destacado desciende de strong */
+strong .destacado {
+  text-decoration: line-through;
+  text-decoration-color: brown;
+  text-decoration-thickness: 1px;
+}
+/* .destacado en un atributo de strong */
+strong.destacado {
+  text-decoration: line-through;
+  text-decoration-color: brown;
+  text-decoration-thickness: 1px;
+}

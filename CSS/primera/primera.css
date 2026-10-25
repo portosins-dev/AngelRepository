@@ -1,0 +1,18 @@
+h1 {
+  background-color: lightblue;
+  color: blue;
+  text-align: center;
+  text-decoration: line-through;
+  text-decoration-color: lightgrey;
+  text-decoration-thickness: 1px;
+}
+p {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: salmon;
+  font-size: 18px;
+}
+body {
+  background-color: lightgoldenrodyellow;
+}

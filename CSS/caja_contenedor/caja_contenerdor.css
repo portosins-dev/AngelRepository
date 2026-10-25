@@ -1,0 +1,55 @@
+h1 {
+  font-size: 44px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  color: yellow;
+  text-transform: uppercase;
+  background-color: rgb(100, 84, 100);
+  margin-top: -6px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: lightyellow;
+  background-color: lightslategrey;
+  letter-spacing: 2px;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: darkgrey;
+  border-style: dotted;
+  overflow: hidden;
+}
+
+html {
+  background-color: lightblue;
+}
+body {
+  background-color: white;
+  border: 3px solid darkblue;
+  width: 760px;
+  margin: 5px auto 5px auto;
+  padding: 1px;
+}
+h1,
+h2,
+p {
+  padding: 10px;
+}
+
+.lateral {
+  width: 30%;
+  float: right;
+  margin: 0 5px 5px 5px;
+  background-color: lightblue;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  padding: 3px;
+}
+
+.lateral h2 {
+  border: none;
+  margin-top: 0;
+  color: lightgreen;
+}

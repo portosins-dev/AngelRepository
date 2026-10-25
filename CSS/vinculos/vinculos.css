@@ -1,0 +1,18 @@
+a {
+  color: black;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: lightblue;
+}
+a:hover {
+  color: grey;
+}
+a:active {
+  color: black;
+}
+p:hover {
+  background-color: lightblue;
+}

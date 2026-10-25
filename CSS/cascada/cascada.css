@@ -1,0 +1,169 @@
+/* =========================
+   FULL CSS RESET / BASE
+   ========================= */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins & paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/* Media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Forms */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Lists */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Text overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Textareas */
+textarea {
+  resize: vertical;
+}
+
+/* Disabled animations for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+* {
+  outline-color: black;
+  outline-width: 1px;
+  outline-style: dashed;
+}
+
+#principal {
+  float: left;
+  width: 580px;
+}
+
+#lateral {
+  margin-left: 600px;
+  padding: 15px;
+}
+
+body {
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 125px;
+  background: rgb(215, 201, 238) url(./images/fondo_cuerpo.png) repeat-x;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 2.2em;
+  color: green;
+  margin-bottom: 5px;
+}
+
+#principal h2 {
+  color: red;
+  border-bottom-width: 2px;
+  border-bottom-color: white;
+  border-bottom-style: double;
+  background: url(./images/flor.png) no-repeat;
+  padding-left: 50px;
+}
+
+#principal p {
+  padding-left: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1em;
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+
+/* #principal p:first-child {
+  color: black;
+} */
+.introduccion {
+  color: black;
+  font-size: 1.2em;
+}
